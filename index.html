@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript While loop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        /*we can write css code here*/
+    </style>
+    <script>
+        /* we can write js code before closing of head tag*/
+    </script>
+</head>
+
+<body>
+    <ul class="myul">
+
+    </ul>
+
+    <script>
+        /*we can write JS code before closing of body tag*/
+        var name = prompt("Please enter your name");
+        let number = prompt("Enter number how, many times do you want to print")
+
+        //Type casting
+        // string to nnumber 
+        let numberp = parseInt(number);
+        //console.log(name);
+        //console.log(typeof number);
+
+        /*
+        Syntax of While loop-
+                while(condition){
+                    //block of code
+                }
+        */
+        // var ul = document.querySelector('ul.myul');
+        // let i = 1;
+        // while (i <= numberp) {
+        //     console.log(`Hi ${name} `);
+        //     ul.innerHTML += `<li>Hi ${name}</li>`;
+        //     i++;
+        // }
+
+        // Syntax of do while loop
+        /*
+        do {
+             code block to be executed
+        }
+        while (condition);
+
+        */
+        do {
+            ul.innerHTML += `<li>Hi ${name}</li>`;
+            i++;
+        }
+        while (i <= numberp);
+    </script>
+</body>
+
+</html>
